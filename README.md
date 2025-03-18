@@ -125,18 +125,6 @@ The project includes key SQL queries such as:
   SELECT title, stock_quantity - COALESCE(SUM(quantity), 0) AS remaining_stock FROM Books LEFT JOIN Orders ON Books.book_id = Orders.book_id GROUP BY title, stock_quantity;
   ```
 
-## 📊 Insights & Findings
-- **Fiction and Fantasy books** are the most popular genres.
-- **Customers from Canada** contribute significantly to bookstore sales.
-- The **most expensive book** costs **$120**, and the cheapest is **$15**.
-- **Total revenue generated** from all orders is **$8,450**.
-- **Customers who place multiple orders** are more likely to buy high-priced books.
-- **Low stock warning**: Some books have less than **3 copies** available.
-- **Authors with the highest sales** are primarily from the Fantasy and Self-Help genres.
-- Customers who spent **over $30** are concentrated in specific cities.
-- **Stock levels need optimization** based on customer demand trends.
-
-
 ## ✨ Connect with Me
 📩 Email: bariv219@gmail.com  
 💼 LinkedIn: http://linkedin.com/in/vaibhav-bari-915bb5202
